@@ -1,5 +1,33 @@
 /* TODO Add site wide styles */
 
+@import 'reset.css';
+
 body {
     background-color: transparent;
+}
+
+#heading {
+    display: flex;
+
+}
+.headingTitle {
+    text-align: center;
+    height:75px;
+    margin: 15px;
+    color: blue;
+    font-size: 45px;
+    font-weight:bold;
+
+    
+    
+}
+.logo {
+    width: 75px;
+    height:75px;
+    margin: 15px;
+}
+
+.active {
+    color: red;
+    font-weight:bold;
 }
